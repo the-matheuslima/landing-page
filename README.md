@@ -35,4 +35,4 @@ Os usuários devem ser capazes de:
 ## Autor
 
 - Frontend Mentor - [@the-matheuslima](https://www.frontendmentor.io/profile/the-matheuslima)
-- email - matheuslima.thedav@gmail.com
+- email - matheuslima.thedev@gmail.com
