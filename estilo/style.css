@@ -114,7 +114,7 @@ div.cabecalho-principal {
         gap: 21px;
         background-image: url('../images/bg-hero-mobile.svg');
         text-align: center;
-        width: 26.9rem;
+        width: 22.2rem;
         align-items: center;
         margin: auto;
     }
@@ -169,6 +169,9 @@ main {
 }
 
 @media (max-width: 925px) {
+    .conteudo-principal-titulo {
+        text-align: center;
+    }
     .conteudo-principal-paragrafo {
         width: 18rem;
     }
@@ -179,6 +182,7 @@ main {
         justify-content: space-around;
         align-items: center;
         height: 564px;
+        width: 19rem;
     }
     .conteudo-principal-imagem{
         height: 158px;
@@ -197,12 +201,12 @@ main {
     box-shadow: -1px 0px 11px 0px rgb(0 0 0 / 38%);
 }
 
-.conteudo-partel-titulo {
-    font-size: 1.2em;
+.conteudo-parte-titulo {
+    font-size: 1em;
     font-family: var(--font2);
 }
 
-.conteudo-partel-butao {
+.conteudo-parte-butao {
     background-color: var(--cor1);
     color: var(--cor2);
     padding: 15px;
@@ -264,7 +268,7 @@ div.coluna-1 {
 
 @media (max-width: 600px) {
     .conteudo-a-parte {
-     width: 412px;
+     width: 297px;
     padding: 15px;
     margin: auto;
     text-align: center;
