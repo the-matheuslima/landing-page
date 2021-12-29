@@ -5,14 +5,12 @@
 Table of contents
 =================
 
-   * [Visão geral](#visao-geral)
-      * [O desafio](#O-desafio)
-      * [Captura de Tela](#Captura-de-Tela)
-   * [Meu processo](#Meu-processo)
-      * [Construido com](#Construido-com)
-      * [O que eu aprendi](#O-que-eu-aprendi)
-   * [Autor](#Autor)
-   * [agradecimentos](#agradecimentos)
+   - [Visão geral](#visao-geral)
+      - [O desafio](#o-desafio)
+      - [Resultado](#resultado)
+   - [Meu processo](#meu-processo)
+      - [Construído com](#construido-com)
+   - [Autor](#autor)
 
 ## Visão geral
 
@@ -25,5 +23,16 @@ Os usuários devem ser capazes de:
  
  ### Resultado
  
- <a target="_blank" rel="noopener noreferrer" href="/the-matheuslima/"
- 
+#### Desktop
+![Huddle_Desktop](https://user-images.githubusercontent.com/96140653/147271056-4aa9b26c-661d-441b-a517-c6d3952c14b3.gif)
+
+### Construído com
+
+- Marcação HTML5 semântica
+- propriedades personalizadas CSS
+- Flexbox
+
+## Autor
+
+- Frontend Mentor - [@the-matheuslima](https://www.frontendmentor.io/profile/the-matheuslima)
+
