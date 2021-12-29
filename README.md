@@ -2,15 +2,6 @@
 
 <p>Esta é uma solução para o desafio Huddle landing page with alternating feature blocks. O objetivo deste desafio é construir e praticar código HTML e CSS puro, bem como praticar o uso do Flexbox, além de praticar as habilidades de layout.</p>
 
-Table of contents
-=================
-
-   - [Visão geral](#visao-geral)
-      - [O desafio](#o-desafio)
-      - [Resultado](#resultado)
-   - [Meu processo](#meu-processo)
-      - [Construído com](#construido-com)
-   - [Autor](#autor)
 
 ## Visão geral
 
