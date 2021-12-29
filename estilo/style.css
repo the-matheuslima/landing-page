@@ -56,7 +56,7 @@ div.cabecalho-principal {
 }
 
 .cabecalho-butao:hover{
-    background-color: var(--cor1);
+    opacity: 0.7;
 }
 
 .header-cabecalho{
@@ -83,20 +83,23 @@ div.cabecalho-principal {
 .header-conteudo-subtitulo{
     color: var(--cor3);
     font-size: 1.2em;
+    width: 40rem;
 }
 
 .header-cabecalho-butao {
     background-color: var(--cor1);
     color: var(--cor2);
-    font: 1.2em;
+    font-size: 1em;
+    font-family: var(--font2);
     padding: 15px;
     width: 200px;
     border-radius: 20px;
     border: none;
+    margin-top: 15px;
 }
 
 .header-cabecalho-butao:hover{
-    background-color: var(--cor3);
+    opacity: 0.7;
 }
 
 .header-conteudo-imagem {
@@ -108,20 +111,20 @@ div.cabecalho-principal {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        align-content: center;
-        align-items: center;
         gap: 21px;
         background-image: url('../images/bg-hero-mobile.svg');
         text-align: center;
+        width: 26.9rem;
+        align-items: center;
+        margin: auto;
     }
 }
 
 main {
     padding: 40px;
-
 }
 
-.conteudo-principal-1, .conteudo-principal-2, .conteudo-principal-3 {
+.conteudo-principal{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -135,60 +138,85 @@ main {
 
 }
 
-.conteudo-principal-1:hover, .conteudo-principal-2:hover, .conteudo-principal-3:hover {
+.conteudo-principal:hover{
     transform: scale(1.01);
     transition: ease-in-out 0.4s;
 
 }
 
-.conteudo-principal-1-descricao, .conteudo-principal-2-descricao,.conteudo-principal-3-descricao {
+.conteudo-principal-descricao {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     gap: 24px;
-    align-items: center;
+    margin: auto;
+    position: initial;
 }
 
-.conteudo-principal-1-titulo, .conteudo-principal-2-titulo, .conteudo-principal-3-titulo{
+.conteudo-principal-titulo{
     font-size: 1.5em;
     color: var(--cor3);
 }
 
-.conteudo-principal-1-paragrafo, .conteudo-principal-2-paragrafo, .conteudo-principal-3-paragrafo {
-    text-align: center;
+.conteudo-principal-paragrafo {
     color: var(--cor4);
+    width: 27rem;
 }
 
 
-.conteudo-principal-1-imagem, .conteudo-principal-2-imagem, .conteudo-principal-3-imagem {
+.conteudo-principal-imagem{
     height: 270px;
 }
 
 @media (max-width: 925px) {
-    .conteudo-principal-1, .conteudo-principal-2, .conteudo-principal-3 {
+    .conteudo-principal-paragrafo {
+        width: 18rem;
+    }
+
+    .conteudo-principal {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
         align-items: center;
         height: 564px;
     }
-    .conteudo-principal-1-imagem, .conteudo-principal-2-imagem, .conteudo-principal-3-imagem {
+    .conteudo-principal-imagem{
         height: 158px;
     }
 }
 
-.conteudo-convite{
-    background-color: green;
-    height: 98px;
+.conteudo-a-parte{
+    border-radius: 9px;
+    position: absolute;
+    background-color: white;
     width: 510px;
+    padding: 25px;
+    margin: auto 381px;
     text-align: center;
+    margin-top: 89px;
+    box-shadow: -1px 0px 11px 0px rgb(0 0 0 / 38%);
+}
+
+.conteudo-partel-titulo {
+    font-size: 1.2em;
+    font-family: var(--font2);
+}
+
+.conteudo-partel-butao {
+    background-color: var(--cor1);
+    color: var(--cor2);
+    padding: 15px;
+    width: 200px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 15px;
 }
 
 footer{
     background-attachment: fixed;
-    background-color: #00252ede;
+    background-color: var(--cor3);
     color: var(--cor2);
-    height: 400px;
+    height: 40vh;
 }
 
 footer#robape {
@@ -198,6 +226,7 @@ footer#robape {
     justify-content: space-around;
     align-content: center;
     align-items: center;
+    margin-top: 118px;
 }
 
 div.coluna-1 {
@@ -208,10 +237,11 @@ div.coluna-1 {
 
 .coluna-1-imagem {
     width: 240px;
+    filter: invert(1)  sepia(1);
 }
 
-.coluna-1  img{
-    margin-left: 5px;
+.ima{
+    margin-right: 15px;
 }
 
 .coluna-2  ul {
@@ -230,4 +260,32 @@ div.coluna-1 {
 .coluna-2 a:hover{
     text-decoration: underline;
     color: var(--cor1);
+}
+
+@media (max-width: 600px) {
+    .conteudo-a-parte {
+     width: 412px;
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+    margin-top: 89px;
+    }
+
+    footer {
+        height: 110vh;
+    }
+    footer#robape {
+        flex-direction: column;
+        padding-top: 156px;
+        flex-wrap: nowrap;
+        align-items: normal;
+        padding-left: 12px;
+    }
+
+    .coluna-2 ul {
+        columns: 1;
+    }
+    .coluna-2 li {
+        margin: 23px 0;
+    }
 }
