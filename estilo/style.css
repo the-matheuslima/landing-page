@@ -22,6 +22,7 @@
 
 body{
     font-family: var(--font1);
+    min-height: 350px;
     max-width: 1440px;
     margin: auto;
 }
@@ -114,14 +115,14 @@ div.cabecalho-principal {
         gap: 21px;
         background-image: url('../images/bg-hero-mobile.svg');
         text-align: center;
-        width: 22.2rem;
+        width: 18.2rem;
         align-items: center;
         margin: auto;
     }
 }
 
 main {
-    padding: 40px;
+    padding: 30px;
 }
 
 .conteudo-principal{
@@ -173,7 +174,7 @@ main {
         text-align: center;
     }
     .conteudo-principal-paragrafo {
-        width: 18rem;
+        width: 12rem;
     }
 
     .conteudo-principal {
@@ -182,8 +183,9 @@ main {
         justify-content: space-around;
         align-items: center;
         height: 564px;
-        width: 19rem;
+        width: 16rem;
         margin: 30px auto;
+        width: 16.3rem;
     }
     .conteudo-principal-imagem{
         height: 158px;
@@ -273,11 +275,11 @@ div.coluna-1 {
      width: 297px;
     padding: 15px;
     text-align: center;
-    margin: 80px 10px;
+    margin: 80px -32px;
     }
 
     footer {
-        height: 110vh;
+        height: 132vh;
     }
     footer#robape {
         flex-direction: column;
