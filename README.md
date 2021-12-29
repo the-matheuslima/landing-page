@@ -21,10 +21,11 @@ Os usuários devem ser capazes de:
 - Visualize o layout ideal para o site, dependendo do tamanho da tela do dispositivo
 - Veja os estados de foco para todos os elementos interativos na página
  
- ### Resultado
+ ### Screenshot
  
 #### Desktop
-![Huddle_Desktop](https://user-images.githubusercontent.com/96140653/147271056-4aa9b26c-661d-441b-a517-c6d3952c14b3.gif)
+<img src="screenshot/screenshot-desktop.png">
+<img src="screenshot/screenshot-desktop-2.png">
 
 ### Construído com
 

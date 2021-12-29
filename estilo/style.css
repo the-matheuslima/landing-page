@@ -168,7 +168,7 @@ main {
     height: 270px;
 }
 
-@media (max-width: 925px) {
+@media (max-width: 916px) {
     .conteudo-principal-titulo {
         text-align: center;
     }
@@ -183,6 +183,7 @@ main {
         align-items: center;
         height: 564px;
         width: 19rem;
+        margin: 30px auto;
     }
     .conteudo-principal-imagem{
         height: 158px;
@@ -195,9 +196,9 @@ main {
     background-color: white;
     width: 510px;
     padding: 25px;
-    margin: auto 381px;
+    margin: auto ;
     text-align: center;
-    margin-top: 89px;
+    margin: 88px 388px;
     box-shadow: -1px 0px 11px 0px rgb(0 0 0 / 38%);
 }
 
@@ -220,7 +221,7 @@ footer{
     background-attachment: fixed;
     background-color: var(--cor3);
     color: var(--cor2);
-    height: 40vh;
+    height: 48vh;
 }
 
 footer#robape {
@@ -242,6 +243,7 @@ div.coluna-1 {
 .coluna-1-imagem {
     width: 240px;
     filter: invert(1)  sepia(1);
+    margin-top: 90px;
 }
 
 .ima{
@@ -266,13 +268,12 @@ div.coluna-1 {
     color: var(--cor1);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 780px) {
     .conteudo-a-parte {
      width: 297px;
     padding: 15px;
-    margin: auto;
     text-align: center;
-    margin-top: 89px;
+    margin: 80px 10px;
     }
 
     footer {
